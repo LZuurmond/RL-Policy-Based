@@ -1,0 +1,28 @@
+usage: AC.py [-h] [--lr LR] [--gamma GAMMA] [--hidden_dim HIDDEN_DIM] [--num_episodes NUM_EPISODES] [--no_cuda NO_CUDA] [--advantage ADVANTAGE] [--seed SEED]
+
+options:
+  -h, --help            show this help message and exit
+  --lr LR               Learning Rate
+  --gamma GAMMA         Discount Factor
+  --hidden_dim HIDDEN_DIM
+                        Hidden Layers of the network
+  --num_episodes NUM_EPISODES
+                        Number of Episodes to train on
+  --no_cuda NO_CUDA     Set to true if not using cuda (when available)
+  --advantage ADVANTAGE
+                        Set to true if using A2C
+  --seed SEED           Set a seed for reproducibility
+
+
+usage: reinforce.py [-h] [--lr LR] [--gamma GAMMA] [--hidden_dim HIDDEN_DIM] [--num_episodes NUM_EPISODES] [--no_cuda NO_CUDA] [--seed SEED]
+
+options:
+  -h, --help            show this help message and exit
+  --lr LR               Learning Rate
+  --gamma GAMMA         Discount Factor
+  --hidden_dim HIDDEN_DIM
+                        Size of hidden layer in network
+  --num_episodes NUM_EPISODES
+                        Number of Episodes to train on
+  --no_cuda NO_CUDA     Set to true if not using cuda (when available)
+  --seed SEED           Set a seed for reproducibility
